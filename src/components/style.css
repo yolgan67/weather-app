@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@700&family=Libre+Baskerville:wght@400;700&display=swap");
+
+body {
+  font-family: "Libre";
+}
+.appH1 {
+  font-size: 38px;
+  text-align: left;
+  color: darkcyan;
+  font-weight: 700;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rainbow {
+  width: 20%;
+}
+.day {
+  font-family: Alegraya;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(4, 60, 65);
+  font-weight: 700;
+}
+.date {
+  font-size: 14px;
+}
+.clock {
+  font-size: 18px;
+}
+.error {
+  text-align: center;
+  color: white;
+  background-color: indianred;
+  font-weight: 700;
+}
+.form {
+  box-shadow: 5px 5px 8px 0 #cfcaca;
+  border: none;
+}
+.weatherCard {
+  background-color: rgb(255, 253, 253);
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: 5px 5px 8px 3px #cfcaca;
+  border-radius: 5px;
+  padding: 10px;
+  outline-style: double;
+}
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .detail {
+  max-width: 260px;
+  padding: 10px;
+  border-radius: 5px;
+} */
+.city {
+  font-size: 30px;
+  font-weight: bold;
+}
+.country {
+  font-size: 30px;
+}
+.currentTemp {
+  font-family: Alegraya;
+  font-weight: 700;
+}
+.box {
+  display: block;
+  justify-content: flex-start;
+ 
+}
+.box h5,
+.box span {
+  margin-left: 5px;
+}
+.anime {
+  width: 120px;
+  margin: 5px auto;
+}
+.icon {
+  width: 40px;
+  height: 50px;
+  margin: 15px;
+  text-align: left;
+}
+
+.currentTemp {
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.title {
+  font-weight: bold;
+  margin-right: 5px;
+}
